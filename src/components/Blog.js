@@ -18,7 +18,7 @@ import comment from "../images/comments.png";
 import {Helmet} from "react-helmet";
 
 function Blogs(props) {
-  const url = "http://localhost:8080/api/consultation"
+  const url = "18.119.105.189:4000"
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -40,7 +40,7 @@ function Blogs(props) {
   function submitComment(e) {
     e.preventDefault();
     console.log(e)
-    axios.post('http://localhost:8080/api/blog/' + props.match.params.id + '/comments', {
+    axios.post('18.119.105.189:4000' + props.match.params.id + '/comments', {
       "comments": {
         "name": comments.name,
         "email": comments.email,
@@ -75,7 +75,7 @@ function Blogs(props) {
 
   useEffect(() => {
     //axios.post('http://localhost:4000/api/product/getAlldesginList')getpostbyid
-    axios.post('http://localhost:4000/api/product/getpostbyid',{postid:props.match.params.id})
+    axios.post('http://18.119.105.189:4000/api/product/getpostbyid',{postid:props.match.params.id})
       .then(res => {
         console.log(res.data);
         setOnePosts(res.data.data);

@@ -40,7 +40,7 @@ function Products(props) {
   function submitComment(e) {
     e.preventDefault();
     console.log(e)
-    axios.post('http://localhost:8080/api/blog/' + props.match.params.id + '/comments', {
+    axios.post('http://18.119.105.189:8080/api/blog/' + props.match.params.id + '/comments', {
       "comments": {
         "name": comments.name,
         "email": comments.email,
@@ -75,7 +75,7 @@ function Products(props) {
 
   useEffect(() => {
     //axios.post('http://localhost:4000/api/product/getAlldesginList')getpostbyid
-    axios.post('http://localhost:4000/api/product/getproductbyid',{postid:props.match.params.id})
+    axios.post('http://18.119.105.189:4000/api/product/getproductbyid',{postid:props.match.params.id})
       .then(res => {
         console.log(res.data);
         setOnePosts(res.data.data);

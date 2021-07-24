@@ -19,7 +19,7 @@ function ProductsScreen() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    axios.post('http://localhost:4000/api/product/getAllproductimage')
+    axios.post('http://18.119.105.189:4000/api/product/getAllproductimage')
       .then(res => {
         console.log(res);
         setPosts(res.data.data)

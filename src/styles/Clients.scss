@@ -47,3 +47,22 @@
       right: 5%;
     }
   }
+  .slider {
+    position: relative;
+    overflow: visible !important;
+    .slick-prev, .slick-next {
+      position: absolute;
+      top: 34%;
+    }
+    .slick-prev {
+      position: absolute;
+      left: -8% !important;
+      z-index: 100;;
+    }
+    .slick-next {
+      position: absolute;
+      right: -8% !important;
+      z-index: 1;
+    }
+  }
+  

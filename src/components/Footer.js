@@ -14,7 +14,7 @@ function Footer() {
 
   useEffect(() => {
 
-    axios.post('http://localhost:4000/api/category/main-list')
+    axios.post('http://18.119.105.189:4000/api/category/main-list')
 
         .then(res => {
            // console.log(res.data);

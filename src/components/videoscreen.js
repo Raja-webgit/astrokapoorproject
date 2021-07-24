@@ -20,7 +20,7 @@ function Videoscreen() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    axios.post('http://localhost:4000/api/product/getAllvideos')
+    axios.post('http://18.119.105.189:4000/api/product/getAllvideos')
       .then(res => {
         console.log(res);
         setPosts(res.data.data)

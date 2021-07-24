@@ -22,7 +22,7 @@ function Services(props) {
 
   useEffect(() => {
 
-    axios.post('http://localhost:4000/api/category/main-list')
+    axios.post('18.119.105.189:4000')
 
         .then(res => {
            // console.log(res.data);
@@ -33,7 +33,7 @@ function Services(props) {
         })
 })
   useEffect(() => {
-    axios.post('http://localhost:4000/api/category/getservicesbasedid',{postid:props.match.params.id})
+    axios.post('http://18.119.105.189:4000/api/category/getservicesbasedid',{postid:props.match.params.id})
       .then(res => {
         console.log(res);
         setPosts(res.data.data)

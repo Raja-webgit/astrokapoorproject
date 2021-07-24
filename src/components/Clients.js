@@ -35,7 +35,7 @@ const Clients = () => {
     arrows: true,
     autoplay: false,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     className: 'slides'
     
     

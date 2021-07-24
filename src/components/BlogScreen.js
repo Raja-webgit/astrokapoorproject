@@ -19,7 +19,7 @@ function BlogScreen() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    axios.post('http://localhost:4000/api/product/getAlldesginList')
+    axios.post('http://18.119.105.189:4000/api/product/getAlldesginList')
       .then(res => {
         console.log(res);
         setPosts(res.data.data)

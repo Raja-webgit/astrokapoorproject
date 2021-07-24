@@ -7,11 +7,12 @@ import divider from '../images/Line 61.png';
 
 
 
+
 function BlogPage() {
     const [blo, setBlo] = useState([])
     useEffect(() => {
 
-        axios.post('http://localhost:4000/api/product/getAlldesginList')
+        axios.post('http://18.119.105.189:4000/api/product/getAlldesginList')
 
             .then(res => {
                // console.log(res.data);
@@ -25,13 +26,15 @@ function BlogPage() {
         var options = { year: 'numeric', month: 'long', day: 'numeric' };
         return new Date(date).toLocaleDateString([], options);
     }
-    var settings = {
-        dots: false,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        initialSlide: 0,
+    const settings = {
+      dots: false,
+      infinite:false,
+      speed: 5000,
+      arrows: true,
+      autoplay: false,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      className: 'slider',
         responsive: [
           {
             breakpoint: 1024,
@@ -63,7 +66,7 @@ function BlogPage() {
       };
 
     return (
-        <div className="Blogs"  >
+        <div className=" container Blogs" >
            <p className="services-heading text-center">LATEST BLOGS</p>
           
             <img className="divider" src={divider} alt="divider" />
