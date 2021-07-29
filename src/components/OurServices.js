@@ -45,7 +45,7 @@ const OurServices = () => {
               <div class="card service-card pe-3">
                 <a href="/services/17981">
                   {" "}
-                  <img src={image10} class="card-img-top img-size
+                  <img src={image10} class="img-fluid card-img-top img-size
                   
                   love-rel" alt="..." />
                 </a>
@@ -54,28 +54,28 @@ const OurServices = () => {
               <div class="card service-card ">
                 <a href="/services/18002">
                   {" "}
-                  <img src={image11} class="card-img-top img-size" alt="..." />
+                  <img src={image11} class=" img-fluid card-img-top img-size" alt="..." />
                 </a>
                 
               </div>
               <div class="card service-card pe-2">
                 <a href="/services/18004">
                   {" "}
-                  <img src={image12} class="card-img-top img-size" alt="..." />
+                  <img src={image12} class="img-fluid card-img-top img-size" alt="..." />
                 </a>
                
               </div>
               <div class="card service-card ">
                 <a href="/services/18154">
                   {" "}
-                  <img src={image13} class="card-img-top img-size" alt="..." />
+                  <img src={image13} class="img-fluid card-img-top img-size" alt="..." />
                 </a>
                 
               </div>
               <div class="card service-card pe-3">
                 <a href="/services/18126">
                   {" "}
-                  <img src={image14} class="card-img-top img-size" alt="..." />
+                  <img src={image14} class="img-fluid card-img-top img-size" alt="..." />
                 </a>
                 <div class="card-body">
                   
@@ -84,14 +84,14 @@ const OurServices = () => {
               <div class="card service-card pe-1">
                 <a href="/services/18187">
                   {" "}
-                  <img src={image15} class="card-img-top img-size" alt="..." />
+                  <img src={image15} class="img-fluid card-img-top img-size" alt="..." />
                 </a>
                
               </div>
               <div class="card service-card pe-2 ">
                 <a href="#">
                   {" "}
-                  <img src={image16} class="card-img-top img-size" alt="..." />
+                  <img src={image16} class="img-fluid card-img-top img-size" alt="..." />
                 </a>
                 
               </div>
@@ -100,7 +100,7 @@ const OurServices = () => {
                   {" "}
                   <img
                     src={image17}
-                    class="card-img-top img-size counselling"
+                    class="img-fluid card-img-top img-size counselling"
                     alt="..."
                   />
                 </a>
@@ -115,28 +115,28 @@ const OurServices = () => {
               <div class="card service-card  ps-5">
                 <a href="#">
                   {" "}
-                  <img src={image19} class="card-img-top img-size love-rel" alt="..." />
+                  <img src={image19} class="img-fluid card-img-top img-size love-rel" alt="..." />
                 </a>
                
               </div>
               <div class="card service-card ">
                 <a href="#">
                   {" "}
-                  <img src={image20} class="card-img-top img-size vedic-astro  " alt="..." />
+                  <img src={image20} class="img-fluid card-img-top img-size vedic-astro  " alt="..." />
                 </a>
                
               </div>
               <div class="card service-card">
                 <a href="#">
                   {" "}
-                  <img src={image21} class="card-img-top img-size vedic-astro" alt="..." />
+                  <img src={image21} class="img-fluid card-img-top img-size vedic-astro" alt="..." />
                 </a>
                 
               </div>
               <div class="card service-card ">
                 <a href="#">
                   {" "}
-                  <img src={image22} class="card-img-top img-size vedic-astro" alt="..." />
+                  <img src={image22} class="img-fluid card-img-top img-size vedic-astro" alt="..." />
                 </a>
                
               </div>
@@ -144,14 +144,14 @@ const OurServices = () => {
               <div class="card service-card ">
                 <a href="#">
                   {" "}
-                  <img src={image23} class="card-img-top img-size vedic-astro" alt="..." />
+                  <img src={image23} class="img-fluid card-img-top img-size vedic-astro" alt="..." />
                 </a>
                
               </div>
               <div class="card service-card  ">
                 <a href="#">
                   {" "}
-                  <img src={image24} class="card-img-top img-size vedic-astro" alt="..." />
+                  <img src={image24} class="img-fluid card-img-top img-size vedic-astro" alt="..." />
                 </a>
                
               </div>
@@ -160,7 +160,7 @@ const OurServices = () => {
                   {" "}
                   <img
                     src={image25}
-                    class="card-img-top img-size counselling"
+                    class="img-fluid card-img-top img-size counselling"
                     alt="..."
                   />
                 </a>

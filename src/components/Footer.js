@@ -10,6 +10,7 @@ import social5 from '../images/social5.png';
 import logo from '../images/logo1.png';
 import axios from 'axios';
 function Footer() {
+      const expenseDate = new Date(2021,7,27);
      const [blo, setBlo] = useState([])
 
   useEffect(() => {
