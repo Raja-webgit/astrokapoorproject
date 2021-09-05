@@ -14,6 +14,8 @@ function App(props) {
         <Switch>
           
           <Route path="/Gemini" component={Gemini} />
+          
+
         
         </Switch>
       </div>

@@ -2,10 +2,12 @@
   background-color: #f59042;
   color: #fff !important;
   border: 2px solid black;
+ position: relative;
+ z-index: 1000;
 }
 .arrow {
   position: relative;
-  bottom: 30px;
+  bottom: 15px;
 }
 .main-heading{
   font-size: 35px;
@@ -54,3 +56,21 @@
     height: auto;
   }
 }
+@media screen and (max-width: 950px) {
+
+  .horoscope-lastcol{
+  display: flex;
+  flex-direction: column;
+  padding-left: 22%;
+  position: relative;
+  bottom: 102px;
+}
+  }
+  @media screen and (max-width: 950px) {
+
+    .horoscope-second-col{
+    position: relative;
+    bottom: 50px;
+  }
+    }
+

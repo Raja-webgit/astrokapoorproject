@@ -47,13 +47,13 @@ function Videoscreen() {
         {posts.map(post => {
           return (
             <div>
-              <Card style={{ width: '29rem', height: '29rem', marginBottom: '20px' }}>
+              <Card style={{ width: '22rem', height: '29rem', marginBottom: '20px' }}>
               <div className="expert_image">
                            <ReactPlayer
                                url={post.videourl}
                                controls
                                
-                               width="462px"
+                               width="350px"
                                height="300px"
                            />
                        </div>

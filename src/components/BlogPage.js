@@ -66,7 +66,7 @@ function BlogPage() {
       };
 
     return (
-        <div className=" container Blogs" >
+        <div className=" container Blogs  py-5" >
            <p className="services-heading text-center">LATEST BLOGS</p>
           
             <img className="divider" src={divider} alt="divider" />

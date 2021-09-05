@@ -4,6 +4,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.js";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "../src/components/HomePage";
+import Contactus from "../src/components/contactus";
 import About from "../src/components/Aboutus";
 import Sunsigns from "../src/components/Sunsign";
 import Expert_content from "../src/components/Expert_content";
@@ -34,6 +35,7 @@ function App(props) {
         <Route path='/products/:id' component={Products}/>
         <Route path='/services/:id' component={Services}/>
         <Route path='/servicedetails/:id' component={Servicepage}/>
+        <Route path="/Contactus" exact component={Contactus} />
         </Switch>
     </div>
   </Router>

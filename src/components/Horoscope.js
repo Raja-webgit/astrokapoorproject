@@ -18,7 +18,8 @@ import horoscope12 from "../images/pisces2.png";
 
 function Horoscope() {
   return (
-    <div className="container horoscope py-2">
+    <div  className="container pt-5">
+    <div className="container horoscope pt-2 pb-4">
       <div>
         <p className="main-heading text-center text-white ">HOROSCOPES</p>
         <div class=" text-center arrow">
@@ -81,7 +82,7 @@ function Horoscope() {
           </div>
         </div>
       </div>
-      <div className="container py-5 ">
+      <div className="container py-5 horoscope-second-col ">
         <div class="row ms-5 ">
           <div class="col">
           <a  href="/sunsign/Virgo">
@@ -131,26 +132,32 @@ function Horoscope() {
       </div>
       <div className="container py-1 ">
         <div class="row  ">
-          <div class="col-6 text-end pe-5 ">
-          <a  href="/sunsign/Aquarius">
+         <div class="col-lg-4 col-md-4 col-sm-12">
+
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-between horoscope-lastcol">
+         <a  href="/sunsign/Aquarius"  class="aquaries">
             <img
               src={horoscope11}
               class="img-fluid items rounded-circle"
               alt="..."
             />
             </a>
-          </div>
-          <div class="col-6 ps-5">
-          <a  href="/sunsign/Pisces">
+            <a  href="/sunsign/Aquarius" class="pisces">
             <img
-              src={horoscope12}
+              src={horoscope11}
               class="img-fluid items rounded-circle"
               alt="..."
             />
             </a>
-          </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+
+</div>
+          
         </div>
       </div>
+    </div>
     </div>
   );
 }

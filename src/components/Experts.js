@@ -24,7 +24,7 @@ const Experts = () => {
           <div class="container expert-container text-center py-4">
             <h2 class="text-capitalize"> Speak to Our experts </h2>
             <div class="row py-4">
-              <div class="col-lg-3 col-md-3 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card text-center expert-card">
                   <div class="card-body">
                     <img
@@ -37,7 +37,7 @@ const Experts = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card text-center expert-card">
                   <div class="card-body">
                     <img
@@ -50,7 +50,7 @@ const Experts = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card expert-card">
                   <div class="card-body">
                     <img
@@ -65,20 +65,7 @@ const Experts = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
-                <div class="card text-center expert-card">
-                  <div class="card-body">
-                    <img
-                      src={Expert4}
-                      class="img-fluid rounded-circle card-img "
-                      alt="..."
-                    />
-                    <h5 class="card-title pt-3 fs-6">Akanksha Srivastava</h5>
-                    
-                    <p class="card-text">Numerologist</p>
-                  </div>
-                </div>
-              </div>
+             
             </div>
             <div class="text-center py-3">
               <p>

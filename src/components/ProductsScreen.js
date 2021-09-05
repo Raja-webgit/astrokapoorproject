@@ -45,7 +45,7 @@ function ProductsScreen() {
         {posts.map(post => {
           return (
             <div>
-              <Card style={{ width: '29rem', height: '29rem', marginBottom: '20px' }}>
+              <Card style={{ width: '22rem', height: '29rem', marginBottom: '20px' }}>
                 <Card.Img variant="top" src={post.Imageurl} style={{ height: 250 }} />
                 <Card.Body>
                   <Card.Title className="blog_title">{post.productname}</Card.Title>

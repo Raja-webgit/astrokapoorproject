@@ -62,11 +62,13 @@
       left: -8% !important;
       z-index: 100;
       color: #eb7b0b !important;
+      top: 50%;
     }
     .slick-next {
       position: absolute;
       right: -8% !important;
       z-index: 1;
+      top: 50%;
       color: #eb7b0b !important;
     }
   }

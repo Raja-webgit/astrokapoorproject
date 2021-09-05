@@ -12,7 +12,7 @@ import Footer from './Footer';
 import { Form, Col, Button } from 'react-bootstrap'
 
 function Contactus() {
-  const url = "http://localhost:8080/api/consultation"
+  const url = "http://18.119.105.189:4000/api/category/main-list"
   const [consultent, setConsultent] = useState({
     birthHour: "",
     birthPlace: "",

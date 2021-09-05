@@ -32,3 +32,16 @@
         padding-top: .1rem;
         padding-bottom: .1rem;
     }
+   
+    @media only screen and (max-width: 991px) {
+         .dropdown{
+        margin-left: 6%;
+        }
+      }
+      
+   @media only screen and (min-width: 601px) and (max-width: 991px) {
+        .dropdown{
+            margin-left: 3%;
+            }
+    }
+    

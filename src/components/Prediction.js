@@ -18,7 +18,7 @@ import horoscope12 from "../images/pisces2.png";
 
 function Prediction() {
   return (
-    <div className="container  horoscope py-3" style={{marginTop:'3%'}}>
+    <div className="container horoscope py-3" style={{marginTop:'3%'}}>
       <div>
         <p className="services-heading text-center text-white ">LATEST TRUE PREDICTION</p>
         <div class=" text-center arrow">

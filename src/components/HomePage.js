@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router,Route,Switch} from "react-router-dom";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.js";
 
@@ -21,22 +22,22 @@ import Redirect_another from "./Redirect_another";
 
 function HomePage() {
   return (
-   <>
+   <Router>
    <Navbar/>
    <Banner/>
-   <Prediction/>
-   <OurServices/>
-   <Products/>
    <Horoscope/>
+   <OurServices/>
+   <Prediction/>
+   <Products/>
    <Clients/>
    <Experts/>
-   <BlogPage/>
    <Videos/>
    <Redirect_another/>
    <Footer/>
   
+  
    
-   </>
+   </Router>
   );
 }
 

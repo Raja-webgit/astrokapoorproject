@@ -29,7 +29,42 @@ color: #fff;
 .service-card{
     border: none;
 }
-.img-size{
-  
-    width: 150px;
-}
+
+
+  .slide-items{
+      width: 80%;
+  }
+  .slider-img{
+    position: relative;
+    bottom: 11px !important;
+  }
+ 
+  .dropdown-items{
+      display: none;
+      position: absolute; 
+      height: 300px;
+      min-width: 200px;
+      z-index: 3000;
+   overflow: visible;
+   position:absolute;top:0px;height:200px;
+   z-index: 3000;
+   background-color: #f9f9f9;
+  min-width: 160px;
+ 
+  }
+  .right-side-items:hover .dropdown-items{
+      display: block;
+      z-index: 1000;
+      height: 300px;
+      overflow: visible;
+      position: absolute;
+      z-index: 3000;
+      position:absolute;top:0px;height:200px;
+  }
+  .items{
+     
+  }
+ .item{
+     border: 1px solid gray;
+     background-color: #f59042;
+ }

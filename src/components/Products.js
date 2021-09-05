@@ -9,7 +9,7 @@ import horoscope0 from "../images/Color Overlay (1).png";
 
 const Products = () => {
   return (
-    <div class="container products py-3 my-5">
+    <div class="container products py-3 mt-5">
       <p className="services-heading text-center text-white ">
         HOT PRODUCTS
       </p>

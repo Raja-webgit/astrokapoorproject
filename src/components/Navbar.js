@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import  "../styles/Navbar.scss";
 import image1 from "../images/logo1.png";
 import axios from 'axios';
-import { UserAddOutlined,SearchOutlined,HeartFilled} from  '@ant-design/icons';
+import { UserAddOutlined,SearchOutlined,HeartFilled } from  '@ant-design/icons';
 import { Navbar, Nav, NavDropdown, Form } from 'react-bootstrap';
 
 
@@ -44,7 +45,7 @@ function NavBar() {
           </li>
 
 
-          <NavDropdown title="Services" id="basic-nav-dropdown" class="nav-link">
+          <NavDropdown title="Services" id="basic-nav-dropdown" class="nav-link nav-services">
           {blo.map((row, index) => (
             <div>
                                         <NavDropdown.Item href={`/services/${row.id}`} className="Item">{row.name}</NavDropdown.Item>
@@ -69,7 +70,8 @@ function NavBar() {
             <a class="nav-link" href="https://www.youtube.com/results?search_query=true+prediction+by+prashant+kapoor" target="_blank">True Prediction</a>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link" href="/contact">Contact us</a>
+            
+            <a class="nav-link" href="/Contactus">Contact</a>
           </li>
           
           
